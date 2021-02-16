@@ -113,6 +113,11 @@
             <id>flyway-repo</id>
             <url>https://nexus.flywaydb.org/repository/flyway/</url>
         </repository>
+        <repository>
+            <id>github</id>
+            <name>GitHub Apache Maven Packages</name>
+            <url>https://maven.pkg.github.com/caretdev/iris-driver-distribution</url>
+        </repository>
 
 
 
@@ -415,7 +420,11 @@
                 <version>${version.informix}</version>
                 <optional>true</optional>
             </dependency>
-
+            <dependency>
+                <groupId>intersystems</groupId>
+                <artifactId>intersystems-jdbc</artifactId>
+                <version>3.2.0</version>
+            </dependency>
 
 
 

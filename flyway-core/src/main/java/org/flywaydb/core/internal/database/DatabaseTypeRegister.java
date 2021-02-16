@@ -29,6 +29,7 @@ import org.flywaydb.core.internal.database.firebird.FirebirdDatabaseType;
 import org.flywaydb.core.internal.database.h2.H2DatabaseType;
 import org.flywaydb.core.internal.database.hsqldb.HSQLDBDatabaseType;
 import org.flywaydb.core.internal.database.informix.InformixDatabaseType;
+import org.flywaydb.core.internal.database.iris.IrisDatabaseType;
 import org.flywaydb.core.internal.database.mysql.MySQLDatabaseType;
 import org.flywaydb.core.internal.database.mysql.mariadb.MariaDBDatabaseType;
 import org.flywaydb.core.internal.database.oracle.OracleDatabaseType;
@@ -91,6 +92,7 @@ public class DatabaseTypeRegister {
             registeredDatabaseTypes.add(new SQLServerDatabaseType());
             registeredDatabaseTypes.add(new SybaseASEJTDSDatabaseType());
             registeredDatabaseTypes.add(new SybaseASEJConnectDatabaseType());
+            registeredDatabaseTypes.add(new IrisDatabaseType());
 
             registeredDatabaseTypes.add(new TestContainersDatabaseType());
 

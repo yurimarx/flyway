@@ -127,6 +127,11 @@
             <artifactId>aws-secretsmanager-jdbc</artifactId>
             <optional>true</optional>
         </dependency>
+        <dependency>
+            <groupId>intersystems</groupId>
+            <artifactId>intersystems-jdbc</artifactId>
+            <version>3.2.0</version>
+        </dependency>
 
 
 
